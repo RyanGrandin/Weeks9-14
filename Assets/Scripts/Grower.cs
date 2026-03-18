@@ -5,6 +5,7 @@ public class Grower : MonoBehaviour
 {
     public Transform treeTransform;
     public Transform appleTransform;
+    public float appleDelay = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,6 +38,8 @@ public class Grower : MonoBehaviour
             treeTransform.localScale = Vector2.one * t;
             yield return null;
         }
+
+        yield return new WaitForSeconds(appleDelay);
 
         t = 0;
 
