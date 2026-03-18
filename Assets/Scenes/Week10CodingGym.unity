@@ -151,6 +151,7 @@ MonoBehaviour:
   olbericTransform: {fileID: 772092471}
   performanceStartTransform: {fileID: 661612624}
   performanceEndTransform: {fileID: 1684192728}
+  performanceLength: 0.25
   performanceCurve:
     serializedVersion: 2
     m_Curve: []

@@ -7,6 +7,7 @@ public class PerformScript : MonoBehaviour
     public Transform olbericTransform;
     public Transform performanceStartTransform;
     public Transform performanceEndTransform;
+    public float performanceLength = 1;
     public AnimationCurve performanceCurve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,15 +32,12 @@ public class PerformScript : MonoBehaviour
     {
         float t = 0;
 
-        if (t < 1)
+        while (t < 1)
         {
-
-            t += Time.deltaTime;
+            olbericTransform.position = Vector2.Lerp(performanceStartTransform.position, performanceEndTransform.position, t);
+            t += Time.deltaTime/performanceLength;
+            yield return null;
         }
-
-        olbericTransform.position = Vector2.Lerp(performanceStartTransform.position, performanceEndTransform.position, t);
-
-        yield return null;
     }
 
     IEnumerator DoVisualEffect()
