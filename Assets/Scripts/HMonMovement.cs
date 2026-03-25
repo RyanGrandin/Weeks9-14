@@ -5,6 +5,7 @@ public class HMonMovement : MonoBehaviour
     Vector2 bottomLeft;
     Vector2 topRight;
     public float speed = 1;
+    public AnimationCurve HMonCurve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,6 +20,7 @@ public class HMonMovement : MonoBehaviour
         Vector2 newPos = transform.position;
 
         newPos.x += speed * Time.deltaTime;
+        newPos.y = HMonCurve.Evaluate(newPos.x);
 
         Vector2 screenPos = Camera.main.WorldToScreenPoint(transform.position);
 
