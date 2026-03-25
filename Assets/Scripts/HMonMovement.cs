@@ -6,6 +6,7 @@ public class HMonMovement : MonoBehaviour
     Vector2 topRight;
     public float speed = 1;
     public AnimationCurve HMonCurve;
+    public TrailRenderer tr;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +27,11 @@ public class HMonMovement : MonoBehaviour
 
         if (screenPos.x > Screen.width)
         {
+            tr.emitting = false;
+            Debug.Log("stop emitting");
             newPos.x = bottomLeft.x;
+            tr.emitting = true;
+            Debug.Log("start emitting");
         }
 
         transform.position = newPos;
