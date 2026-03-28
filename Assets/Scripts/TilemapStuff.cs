@@ -5,7 +5,8 @@ using UnityEngine.Tilemaps;
 public class TilemapStuff : MonoBehaviour
 {
     public Tilemap tilemap;
-    public Transform dango;
+    public Transform highlight;
+    public Tile flower;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,6 +22,12 @@ public class TilemapStuff : MonoBehaviour
         Vector3 pos = tilemap.GetCellCenterWorld(cellPos);
 
         //Debug.Log(mousePos + " is at cell: " + cellPos);
-        dango.position = pos;
+        highlight.position = pos;
+
+        if (Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            Debug.Log(tilemap.GetTile(cellPos));
+            tilemap.SetTile(cellPos, flower);
+        }
     }
 }
