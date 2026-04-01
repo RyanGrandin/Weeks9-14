@@ -14,6 +14,7 @@ public class Knight : MonoBehaviour
     public SpriteRenderer sr;
     public Tilemap tilemap;
     public Tile crackedTile;
+    public Tile flowerTile;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,9 +45,16 @@ public class Knight : MonoBehaviour
         //SFX.Play();
         impulseSource.GenerateImpulse();
 
-        if (tileStepped.name == "TX Tileset Grass Pavement 0")
+        if (tileStepped != null)
         {
-            tilemap.SetTile(cellPos, crackedTile);
+            if (tileStepped.name == "TX Tileset Grass Pavement 0")
+            {
+                tilemap.SetTile(cellPos, crackedTile);
+            }
+            if (tileStepped.name == "TX Tileset Grass 0")
+            {
+                tilemap.SetTile(cellPos, flowerTile);
+            }
         }
     }
 

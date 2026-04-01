@@ -2647,6 +2647,7 @@ MonoBehaviour:
   sr: {fileID: 800629956}
   tilemap: {fileID: 685972677}
   crackedTile: {fileID: 11400000, guid: 9d261fa57a186304eb7c71bcd3920f52, type: 2}
+  flowerTile: {fileID: 11400000, guid: 57824cd7e1612d14090d617a256eca53, type: 2}
 --- !u!82 &800629961
 AudioSource:
   m_ObjectHideFlags: 0
