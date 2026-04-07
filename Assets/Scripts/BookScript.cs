@@ -20,7 +20,7 @@ public class BookScript : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext context)
     {
-        if (context.performed == true)
+        if (context.performed)
         {
             Debug.Log("Click!");
             mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
@@ -40,8 +40,8 @@ public class BookScript : MonoBehaviour
 
         while (r < 255)
         {
-            r++;
-
+            r += Time.deltaTime;
+            drawingSR.color = new Color(r, drawingSR.color.g, drawingSR.color.b);
             yield return null;
         }
     }
@@ -52,8 +52,8 @@ public class BookScript : MonoBehaviour
 
         while (b > 190)
         {
-            b--;
-
+            b -= Time.deltaTime;
+            drawingSR.color = new Color(drawingSR.color.r, drawingSR.color.g, b);
             yield return null;
         }
     }
