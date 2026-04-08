@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c709afb449d48ba4d9a9107c06142f41
+guid: c6186602e7477c74db77a142a8f9f97f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2728732602917879942
-    second: systemComicPg1Panel2_0
+      213: -4630322264524157951
+    second: systemComicPg1Panel3W_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: systemComicPg1Panel2_0
+      name: systemComicPg1Panel3W_0
       rect:
         serializedVersion: 2
         x: 109
-        y: 1601
+        y: 853
         width: 1822
         height: 683
       alignment: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68082fb48d76ed520800000000000000
-      internalID: 2728732602917879942
+      spriteID: 10c8473de6acdbfb0800000000000000
+      internalID: -4630322264524157951
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      systemComicPg1Panel2_0: 2728732602917879942
+      systemComicPg1Panel3W_0: -4630322264524157951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

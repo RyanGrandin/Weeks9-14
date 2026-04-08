@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: c1384cf49f2b0dd4aba9e1277fbce7f0
+guid: daaa94c479e9122458606133eef60d65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9063053717368962882
-    second: systemComicPg1Panel4_0
+      213: -4321864693956835629
+    second: systemComicPg1Illustration5W_0
+  - first:
+      213: -5914466143308776284
+    second: systemComicPg1Illustration5W_1
+  - first:
+      213: -7211741167799888900
+    second: systemComicPg1Illustration5W_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: systemComicPg1Panel4_0
+      name: systemComicPg1Illustration5W_0
       rect:
         serializedVersion: 2
-        x: 109
-        y: 113
-        width: 1022
-        height: 683
+        x: 1214
+        y: 451
+        width: 222
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb080f389a0993280800000000000000
-      internalID: -9063053717368962882
+      spriteID: 3d6866585f6a504c0800000000000000
+      internalID: -4321864693956835629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg1Illustration5W_1
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 719
+        width: 568
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac710cf0689beda0800000000000000
+      internalID: -5914466143308776284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg1Illustration5W_2
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 123
+        width: 634
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf31a390e9fbaeb90800000000000000
+      internalID: -7211741167799888900
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      systemComicPg1Panel4_0: -9063053717368962882
+      systemComicPg1Illustration5W_0: -4321864693956835629
+      systemComicPg1Illustration5W_1: -5914466143308776284
+      systemComicPg1Illustration5W_2: -7211741167799888900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
