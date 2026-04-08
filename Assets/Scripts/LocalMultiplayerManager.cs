@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -6,6 +7,8 @@ public class LocalMultiplayerManager : MonoBehaviour
 {
     public List<Sprite> playerSprites;
     public List<PlayerInput> players;
+    public AnimationCurve SqueezeCurve;
+    public float squeezeSpeed = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -39,7 +42,23 @@ public class LocalMultiplayerManager : MonoBehaviour
             if (Vector2.Distance(attackingPlayer.transform.position, players[i].transform.position) < 0.5f)
             {
                 Debug.Log("Player " + attackingPlayer.playerIndex + " hit player " + players[i].playerIndex + ".");
+                if (Squeeze(i) != null)
+                {
+                    StopCoroutine(Squeeze(i));
+                }
+                StartCoroutine(Squeeze(i));
             }
+        }
+    }
+
+    IEnumerator Squeeze(int i)
+    {
+        float t = 0;
+        while (t < 1)
+        {
+            t += squeezeSpeed * Time.deltaTime;
+            players[i].transform.localScale = Vector3.one * SqueezeCurve.Evaluate(t);
+            yield return null;
         }
     }
 }
