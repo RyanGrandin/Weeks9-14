@@ -1,16 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
 public class BookScript : MonoBehaviour
 {
     Vector2 mousePos;
     public SpriteRenderer drawingSR;
+    public List<SpriteRenderer> pg1Panels;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        for (int i = 0; i < pg1Panels.Count; i++)
+        {
+            pg1Panels[i].color = new Color(pg1Panels[i].color.r, pg1Panels[i].color.g, pg1Panels[i].color.b, 0);
+        }
     }
 
     // Update is called once per frame
@@ -28,32 +33,19 @@ public class BookScript : MonoBehaviour
             if (drawingSR.bounds.Contains(mousePos))
             {
                 Debug.Log("Click in bound!");
-                StartCoroutine(AddRed());
-                StartCoroutine(RemoveBlue());
+                StartCoroutine(IncreaseAlpha());
             }
         }
     }
 
-    IEnumerator AddRed()
+    IEnumerator IncreaseAlpha()
     {
-        float r = drawingSR.color.r;
+        float a = drawingSR.color.a;
 
-        while (r < 255)
+        while (a < 255)
         {
-            r += Time.deltaTime;
-            drawingSR.color = new Color(r, drawingSR.color.g, drawingSR.color.b);
-            yield return null;
-        }
-    }
-
-    IEnumerator RemoveBlue()
-    {
-        float b = drawingSR.color.b;
-
-        while (b > 190)
-        {
-            b -= Time.deltaTime;
-            drawingSR.color = new Color(drawingSR.color.r, drawingSR.color.g, b);
+            a += Time.deltaTime;
+            drawingSR.color = new Color(drawingSR.color.r, drawingSR.color.g, drawingSR.color.b, a);
             yield return null;
         }
     }
