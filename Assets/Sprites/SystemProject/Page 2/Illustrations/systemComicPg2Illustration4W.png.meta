@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 80139ea7331660247bd07bb21f6151c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6615476381140280339
+    second: systemComicPg2Illustration4W_0
+  - first:
+      213: 3610635279577546301
+    second: systemComicPg2Illustration4W_1
+  - first:
+      213: 8983930116396318024
+    second: systemComicPg2Illustration4W_2
+  - first:
+      213: 8051607075190972717
+    second: systemComicPg2Illustration4W_3
+  - first:
+      213: 2791609904420031249
+    second: systemComicPg2Illustration4W_4
+  - first:
+      213: 995812034494088552
+    second: systemComicPg2Illustration4W_5
+  - first:
+      213: -3313750292888864196
+    second: systemComicPg2Illustration4W_6
+  - first:
+      213: 5041307996931641748
+    second: systemComicPg2Illustration4W_7
+  - first:
+      213: -2701761374084359337
+    second: systemComicPg2Illustration4W_8
+  - first:
+      213: 2747926225301510062
+    second: systemComicPg2Illustration4W_9
+  - first:
+      213: -2141500770070180445
+    second: systemComicPg2Illustration4W_10
+  - first:
+      213: -1108277596103474907
+    second: systemComicPg2Illustration4W_11
+  - first:
+      213: 4136962672366800078
+    second: systemComicPg2Illustration4W_12
+  - first:
+      213: 3725013709872217058
+    second: systemComicPg2Illustration4W_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 912
+        width: 350
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb952a184b1134a0800000000000000
+      internalID: -6615476381140280339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1253
+        width: 23
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e76b428ad8b1230800000000000000
+      internalID: 3610635279577546301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1252
+        width: 20
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d7cba87d45dac70800000000000000
+      internalID: 8983930116396318024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1446
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21a7c3c9fd0dbf60800000000000000
+      internalID: 8051607075190972717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 882
+        width: 326
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b0b60ea6acdb620800000000000000
+      internalID: 2791609904420031249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1213
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8654413f4c5d1dd00800000000000000
+      internalID: 995812034494088552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_6
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 924
+        width: 78
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a33066aa13302d0800000000000000
+      internalID: -3313750292888864196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 889
+        width: 191
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4915278c9e256f540800000000000000
+      internalID: 5041307996931641748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_8
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 965
+        width: 215
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b94d5485a618ad0800000000000000
+      internalID: -2701761374084359337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 943
+        width: 136
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79310c758922620800000000000000
+      internalID: 2747926225301510062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 946
+        width: 107
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adcdb1556cd742e0800000000000000
+      internalID: -2141500770070180445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_11
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 844
+        width: 43
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5218ab3f56b9e90f0800000000000000
+      internalID: -1108277596103474907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_12
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 956
+        width: 190
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc4977c1a1796930800000000000000
+      internalID: 4136962672366800078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: systemComicPg2Illustration4W_13
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 901
+        width: 158
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebb460bb38e1b330800000000000000
+      internalID: 3725013709872217058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      systemComicPg2Illustration4W_0: -6615476381140280339
+      systemComicPg2Illustration4W_1: 3610635279577546301
+      systemComicPg2Illustration4W_10: -2141500770070180445
+      systemComicPg2Illustration4W_11: -1108277596103474907
+      systemComicPg2Illustration4W_12: 4136962672366800078
+      systemComicPg2Illustration4W_13: 3725013709872217058
+      systemComicPg2Illustration4W_2: 8983930116396318024
+      systemComicPg2Illustration4W_3: 8051607075190972717
+      systemComicPg2Illustration4W_4: 2791609904420031249
+      systemComicPg2Illustration4W_5: 995812034494088552
+      systemComicPg2Illustration4W_6: -3313750292888864196
+      systemComicPg2Illustration4W_7: 5041307996931641748
+      systemComicPg2Illustration4W_8: -2701761374084359337
+      systemComicPg2Illustration4W_9: 2747926225301510062
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
